@@ -1,0 +1,11 @@
+#atividade 3 da revisão
+
+numeros = []
+for i in range(10):
+    num = int(input(f"digite o {i + 1}º número:"))
+    numeros.append(num)
+
+print("\nNúmeros positivos digitados:")
+for numero in numeros:
+    if numero > 0:
+        print(numero)
